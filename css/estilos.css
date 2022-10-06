@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Raj ;
+    src: url("/textFonts/rajdhani/Rajdhani-Bold.ttf") format('truetype');
+}
+
+#titulo {
+    color: #F12E05; 
+font-family: Raj;}
+
+#data {font-weight: bold;}
+
+p.texto {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 20px;
+}
+
