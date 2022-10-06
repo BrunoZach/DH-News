@@ -1,18 +1,56 @@
 @font-face {
     font-family: Raj ;
-    src: url("/textFonts/rajdhani/Rajdhani-Bold.ttf") format('truetype');
+    src: url("/assets/textFonts/rajdhani/Rajdhani-Bold.ttf") format('truetype');
 }
 
 #titulo {
-    color: #F12E05; 
-font-family: Raj;}
+color: #F12E05; 
+font-family: Raj;
+font-size: 45px;
+line-height: 15px;
+}
 
-#data {font-weight: bold;}
+#data {
+    font-family: Raj;
+    font-weight: bolder;
+    line-height: 15px;
+}
+
+h2.subtitulo {
+    font-family: Raj;
+}
 
 p.texto {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-    line-height: 20px;
+    text-align: left;
+    line-height: 15px ;
+    width: 1000px;
+    overflow-wrap: break-word;
+    word-break: break-all;
 }
 
+
+
+#body {
+/*background-color: #808080; /* adicionado apenas para medir as bordas */ 
+    display: block ;
+    width: fit-content;
+    padding: 0px;
+    margin:auto;
+    text-align: justify;   
+}
+
+.footer {
+   margin: 10px 10px; 
+}
+
+.separador {
+margin: 50px 33px;
+}
+
+.icones{
+    margin: 0px 400px;
+}
+
+ 
